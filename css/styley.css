@@ -1,0 +1,39 @@
+.body{
+     background-color: black;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+   border: 2px solid black;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.tituloprincipal{
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+.videosobre-button{
+    border-radius: 8px;
+    background-color: aquamarine;
+    display: block;
+    color: firebrick;
+    border: none;
+
+}
+
+.video1-button:hover{
+    background-color: brown;
+    cursor: pointer;
+    transform: perspective(1px)scale(1.1);
+}
+
+.item1{
+   border: solid 20px  gray;
+   background-color: white;
+   justify-content: center;
+   font-size: 28px;
+   padding: 15px;
+}
